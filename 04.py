@@ -1,0 +1,13 @@
+import numpy as np
+a = np.array([1,2,3])
+b = np.array([4,5,6])
+print("Addition  : ", a + b)
+print("Subtraction :",a - b)
+print("Multiplication :",a * b)
+print("Division",a/b)
+print(f"cube of {a} : {a**3}")
+print(f"cube of {b} : {b**3}")
+print(f"square of {a} : {a**2}")
+print(f"squaree of {b} : {b**2}")
+print(f"Mean of array a : {np.mean(a)}")
+print(f"Mean of array b : {np.mean(b)}")
